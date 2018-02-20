@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name='bib2csv',
     version='0.1',
-    packages=find_packages(exclude=['tests*']),
+    packages=['bib2csv'],
     license='MIT',
     description='Convertion of BibTex to CSV file',
     long_description=open('README.md').read(),
