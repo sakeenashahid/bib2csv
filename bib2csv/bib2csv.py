@@ -1,4 +1,4 @@
-class Bib2csv:
+class Converter:
     bibfile    = ''
     attributes = []
     datas      = []
