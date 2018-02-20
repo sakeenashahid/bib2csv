@@ -1,6 +1,12 @@
 # bib2csv
 Convertion of BibTex to CSV file
 
+# How to install (Ubuntu Linux)
+
+```shell
+sudo pip install git+https://github.com/ssrinformatica/bib2csv.git
+```
+
 # Example
 
 ```python
