@@ -6,6 +6,7 @@ Convertion of BibTex to CSV file
 ```shell
 sudo pip install git+https://github.com/ssrinformatica/bib2csv.git
 ```
+Require installed PIP and GIT
 
 # Example
 
