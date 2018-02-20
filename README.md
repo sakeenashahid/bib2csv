@@ -3,6 +3,7 @@ Convertion of BibTex to CSV file
 
 # Example
 
+```python
 import sys
 import os.path 
 import bib2csv
@@ -15,3 +16,4 @@ if os.path.exists(sys.argv[1]):
     objBib2csv.generate(sys.argv[2])
 else:
     print "Error reading file "+sys.argv[1]
+```
