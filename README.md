@@ -10,7 +10,7 @@ It will require installed PIP and GIT
 
 # Example
 
-First, create a file test.bib with the bellow content:
+First, create a file **test.bib** with the bellow content:
 
 ```txt
 @article{ribeiro2016using,
@@ -41,7 +41,7 @@ First, create a file test.bib with the bellow content:
 }
 ```
 
-Second, create a file test.py with the bellow code:
+Second, create a file **test.py** with the bellow code:
 
 ```python
 import sys
