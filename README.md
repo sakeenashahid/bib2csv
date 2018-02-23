@@ -1,5 +1,5 @@
 # bib2csv
-Convertion of BibTex to CSV file
+It is a Python code used to converts BibTex file to CSV
 
 # How to install (Ubuntu Linux)
 
