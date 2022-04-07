@@ -20,7 +20,7 @@ class Converter:
                 __data += ',"'+bib[ bib.find('{')+1 :bib.find(',',bib.find('{'))]+'"'
 
 		for att in self.attributes:
-		    __att = att + '={'
+		    __att = att + ' = {'
 		    if bib.find(__att)>=0:
 		        __data += ',"'+bib[ bib.find( __att )+len(__att)  :bib.find('}',bib.find(__att))]+'"'
 		    else:
