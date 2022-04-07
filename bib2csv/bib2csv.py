@@ -4,7 +4,7 @@ class Converter:
     datas      = []
     
     def __init__(self):
-        self.attributes = ['journal','title','author','volume','number','publisher','booktitle','school','organization','address','year','month','pages']
+        self.attributes = ['journal','title','author','volume','doi', 'url','number','publisher','booktitle','school','organization','address','year','month','pages']
         self.datas      = []
         
     def setBibfile( self,bibfile ):
